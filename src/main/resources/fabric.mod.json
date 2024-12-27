@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "stringlights",
+	"version": "${version}",
+	"name": "String Lights",
+	"description": "Adds String Lights",
+	"authors": [
+		"ProjectThor"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/stringlights/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.projectthor.stringlights.StringLights"
+		],
+		"fabric-datagen": [
+			"net.projectthor.stringlights.StringLightsDataGenerator"
+		],
+		"client": [
+			"net.projectthor.stringlights.StringLightsClient"
+		]
+	},
+	"mixins": [
+		"stringlights.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
