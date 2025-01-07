@@ -1,0 +1,23 @@
+{
+  "item.stringlights.string_lights": "String Lights",
+
+  "itemgroup.stringlights.string_lights_items": "String Lights",
+
+  "block.stringlights.fastener": "Fastener",
+
+  "entity.stringlights.light_knot" : "Light Knot",
+  "text.autoconfig.stringlights.option.lightHangAmount" : "Light Drip",
+  "text.autoconfig.stringlights.option.maxLightRange" : "Max Light Distance",
+  "text.autoconfig.stringlights.option.quality" : "Light Quality",
+  "text.autoconfig.stringlights.option.lightHangAmount.@Tooltip[0]" : "Effects how much the chain hangs.",
+  "text.autoconfig.stringlights.option.lightHangAmount.@Tooltip[1]" : "Lower numbers equals more a bigger curve.",
+  "text.autoconfig.stringlights.option.lightHangAmount.@Tooltip[2]" : "Collision will update on new lights or world loading.",
+  "text.autoconfig.stringlights.option.showToolTip" : "Show Catenary Compatibility Tooltip",
+  "text.autoconfig.stringlights.option.showToolTip.@Tooltip" : "Show tooltip over chain items that are compatible with this mod.",
+
+  "text.autoconfig.stringlights.option.maxChainRange.@Tooltip[0]" : "Effects how long a light can be.",
+  "text.autoconfig.stringlights.option.maxChainRange.@Tooltip[1]" : "§nWarning§r: Long lights can sometimes become invisible!",
+  "text.autoconfig.stringlights.option.quality.@Tooltip" : "Effects the visual quality the light.",
+  "text.autoconfig.stringlights.title": "Connectible Light Configs",
+  "tag.item.stringlights.light_items": "Light items"
+}

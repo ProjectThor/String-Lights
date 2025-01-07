@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "light": "stringlights:textures/entity/lead_rope",
+    "knot": "stringlights:textures/entity/lead_knot"
+  }
+}

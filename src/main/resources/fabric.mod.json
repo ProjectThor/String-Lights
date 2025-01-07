@@ -22,7 +22,7 @@
 			"net.projectthor.stringlights.StringLightsDataGenerator"
 		],
 		"client": [
-			"net.projectthor.stringlights.StringLightsClient"
+			"net.projectthor.stringlights.client.ClientInitializer"
 		]
 	},
 	"mixins": [
